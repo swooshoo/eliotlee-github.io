@@ -9,5 +9,5 @@ export interface tile {
   end: string;
   alt: string;
   description: string[];
-  even: boolean;
+  even?: boolean;
 }
