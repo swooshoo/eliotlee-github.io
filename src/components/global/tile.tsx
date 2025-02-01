@@ -3,6 +3,7 @@ import Image from "next/image";
 
 const Tile = ({
   logo,
+  link,
   alt,
   group,
   location,
@@ -15,8 +16,15 @@ const Tile = ({
   return (
     <>
       <div className="flex items-center">
-        {even && <Image src={logo} alt={alt} className="w-3/12 p-4" />}
-
+      {even && (
+        link ? (
+          <a href={link} target="_blank" rel="noopener noreferrer">
+            <Image src={logo} alt={alt} className="w-3/12 p-4" />
+          </a>
+        ) : (
+          <Image src={logo} alt={alt} className="w-3/12 p-4" />
+        )
+  )}
         <div
           className={`${
             even ? "border-l-2" : "border-r-2"
@@ -24,7 +32,7 @@ const Tile = ({
         >
           <div className="flex w-full">
             <div className="w-1/2">
-              <p className="text-website-gray text-lg">working in the </p>
+              <p className="text-website-gray text-lg">working in </p>
               <p className="font-semibold text-lg">{group}</p>
               <p className="text-website-gray text-lg">in</p>
               <p className="font-semibold text-lg">{location}</p>
