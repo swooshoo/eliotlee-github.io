@@ -13,7 +13,7 @@ const organizations: tile[] = [
     alt: "ACM Logo",
     description: [
       "Implemented an ACM Intern program to streamline and train next year's ACM Board Members",
-      "Managed 15+ weekly workshopss towards soft skills, on-campus tech events, and hackathon preparation",
+      "Managed 15+ weekly workshops towards soft skills, on-campus tech events, and hackathon preparation",
       "Spearheaded Data Science Workshop series, increasing the number of data science majors in ACM by 50%",
     ],
   },
