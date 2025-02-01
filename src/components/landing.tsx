@@ -15,60 +15,56 @@ const Landing = () => {
         src={HeroImage}
         className="h-screen w-screen object-cover -z-[10]"
         fill={true}
-        alt="Divyank Shah"
+        alt="Eliot Lee"
       />
       <div className="h-screen w-screen bg-black/30 absolute top-0 left-0 -z-[10]" />
 
       <div className="w-2/5 mr-8">
         <h1 className="text-3xl text-white font-semibold text-right my-8">
-          Divyank Shah
+          Eliot Lee
         </h1>
         <p className="text-xl text-white">
-          Divyank Shah is currently a final year Computer Science MS student at
-          UC Riverside expected to graduate in March 2025. He is an aspiring
-          software engineer with interests and full stack applications and
-          devops where he explored these fields via his internships with Cisco
-          (Summer 2024) and Comcast (Summer 2022 & Summer 2023).
+        Eliot Lee is a final-year Mathematics B.S. student at UC Riverside, graduating in 2025. He is a data-driven problem solver with a passion for data analytics, product development, and machine learning. 
+        Through internships at Mobalytics and leadership roles at UCR and Rose Hack, he has worked on game analytics, market research, and student engagement.
         </p>
 
         <p className="text-xl text-white">
-          Outside the classroom, Divyank is involved with various organizations
-          and hackathons providing more students the opportunity to break into
-          web development and leading various web development projects to mentor
-          students.
+        Outside the classroom, Eliot builds data-powered applications for emergency response, gaming insights, and financial tools, 
+        leveraging Streamlit, SQL, and cloud platforms. He is currently seeking a new grad role in product development where 
+        he can continue to grow to build impactful, data-driven solutions.
         </p>
 
         <div className="flex text-white my-8 justify-between w-1/2">
           <Link
-            href="https://www.instagram.com/divyank.shah/"
+            href="https://www.instagram.com/eliotlee_/"
             target="_blank"
             className="hover:opacity-70"
           >
             <SiInstagram size={36} />
           </Link>
           <Link
-            href="https://www.linkedin.com/in/divyank-shah/"
+            href="https://www.linkedin.com/in/swooshoo/"
             target="_blank"
             className="hover:opacity-70"
           >
             <SiLinkedin size={36} />
           </Link>
           <Link
-            href="https://github.com/shahdivyank"
+            href="https://github.com/swooshoo"
             target="_blank"
             className="hover:opacity-70"
           >
             <SiGithub size={36} />
           </Link>
           <Link
-            href="/files/Divyank_Shah_Resume.pdf"
+            href="/files/Eliot_Lee_Resume.pdf"
             target="_blank"
             className="hover:opacity-70"
           >
             <File size={36} />
           </Link>
           <Link
-            href="mailto:shahdivyank25@gmail.com"
+            href="mailto:eliotlee1415@gmail.com"
             target="_blank"
             className="hover:opacity-70"
           >
