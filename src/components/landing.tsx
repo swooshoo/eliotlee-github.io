@@ -24,12 +24,12 @@ const Landing = () => {
           Eliot Lee
         </h1>
         <p className="text-xl text-white">
-        Eliot Lee is a final-year Mathematics B.S. student at UC Riverside, graduating in 2025. He is a data-driven problem solver with a passion for data analytics, product development, and machine learning. 
+        Eliot Lee is a final-year Mathematics B.A. student at UC Riverside, graduating in 2025. He is a data-driven problem solver with a passion for data analytics, product development, and machine learning. 
         Through internships at Mobalytics and leadership roles at UCR and Rose Hack, he has worked on game analytics, market research, and student engagement.
         </p>
 
         <p className="text-xl text-white">
-        Outside the classroom, Eliot builds data-powered applications for emergency response, gaming insights, and financial tools, 
+        Outside the classroom, Eliot has built data-powered applications for emergency response, gaming insights, and financial tools, 
         leveraging Streamlit, SQL, and cloud platforms. He is currently seeking a new grad role in product development where 
         he can continue to grow to build impactful, data-driven solutions.
         </p>
