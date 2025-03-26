@@ -2,17 +2,38 @@ import TFT from "@/public/logos/tft.jpeg"
 import Layudar from "@/public/logos/LAyudar_logo.png"
 import Divvy from "@/public/logos/divvy.png"
 import Wordle from "@/public/logos/wordle.png"
-import Layout from "@/components/global/layout";
+import Pokecoverage from "@/public/logos/Pokecoverage.webp";
+import Layout from "@/components/global/layout"
+
 import { tile } from "@/types";
 
 const projects: tile[] = [
+    {
+      logo: Pokecoverage,
+      link:"https://github.com/swooshoo/pokecoverage",
+      group: "Pokecoverage",
+      location: "Los Angeles, California",
+      role: "Creator",
+      start: "February 2025",
+      end: "Present",
+      alt: "Pokecoverage Logo",
+      description: [
+        "Developed PokeCoverage, a comprehensive Dash application that analyzes Pokémon team compositions to identify defensive weaknesses and recommend optimal team builds.",
+        "Designed an intuitive interface allowing users to select Pokémon from a complete database, instantly visualizing type effectiveness across 18 different type matchups.",
+        "Implemented advanced defensive coverage algorithms that calculate team-wide resistance and vulnerability scores, highlighting critical weaknesses requiring attention.",
+        "Created a recommendation engine suggesting complementary Pokémon that address team vulnerabilities based on type matchups and defensive synergies.",
+        "Built interactive visualization components displaying defensive coverage as heat maps and radar charts, enabling users to easily identify and address team composition gaps.",
+        "Incorporated a team-building assistant that provides strategic advice on balancing offensive and defensive capabilities while maintaining competitive viability.",
+        "Integrated a comprehensive Pokémon database with complete type information, abilities, and base stats to support informed team-building decisions.",
+      ],
+    },
     {
       logo: Layudar,
       link:"https://layudar.streamlit.app/",
       group: "LAyudar",
       location: "Los Angeles, California",
-      role: "Co-creator",
-      start: "April 2024",
+      role: "Creator",
+      start: "January 2025",
       end: "Present",
       alt: "LAyudar Logo",
       description: [
