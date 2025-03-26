@@ -11,7 +11,7 @@ const projects: tile[] = [
     {
       logo: Pokecoverage,
       link:"https://github.com/swooshoo/pokecoverage",
-      group: "Pokecoverage",
+      group: "PokeCoverage",
       location: "Los Angeles, California",
       role: "Creator",
       start: "February 2025",
